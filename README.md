@@ -29,8 +29,8 @@ Este proyecto es un bot de Telegram desarrollado en Python para la Universidad M
 
 1. Clonar el repositorio:
 ```bash
-git clone https://github.com/tu-usuario/umbot-telegram.git
-cd umbot-telegram
+git clone https://github.com/cswni/telegram-bot-template.git
+cd telegram-bot-template
 ```
 
 2. Crear y activar un entorno virtual (recomendado):
@@ -52,8 +52,7 @@ pip install -r requirements.txt
 TELEGRAM_BOT_TOKEN=tu_token_de_telegram
 GOOGLE_SHEETS_ID=id_de_tu_hoja_de_calculo
 GOOGLE_CREDENTIALS_FILE=credentials.json
-N8N_API_URL=https://tu-instancia-n8n.com/webhook/preguntas
-N8N_API_KEY=tu_api_key_de_n8n
+
 ```
 
 2. Para las credenciales de Google Sheets:
@@ -93,8 +92,6 @@ umbot-telegram/
 - `/contactos [sede]` - Contactos de autoridades por sede
 
 
-
-
 ## Estructura de Google Sheets
 El bot espera una hoja de cálculo con las siguientes pestañas:
 1. `carreras` - Información detallada de cada carrera
@@ -129,18 +126,9 @@ Para actualizar la información:
 1. Modificar los datos en Google Sheets
 2. Algunos cambios requieren reiniciar el bot para recargar la caché
 
-## Contribución
-1. Haz fork del proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/nueva-funcionalidad`)
-3. Haz commit de tus cambios (`git commit -am 'Añade nueva funcionalidad'`)
-4. Haz push a la rama (`git push origin feature/nueva-funcionalidad`)
-5. Abre un Pull Request
-
 ## Licencia
 Este proyecto está bajo la licencia MIT. Ver el archivo LICENSE para más detalles.
 
 ## Contacto
 Para soporte o preguntas:
-- [Tu nombre o equipo]
-- [Email de contacto]
-- [Otros medios de contacto]
+- Equipo de estudiantes de UML - Ocotal 2025 - II Ing Sistemas.
